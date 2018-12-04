@@ -1,0 +1,95 @@
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+
+#cover {
+    background: #222 url('images/Page1.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('images/AboutMe.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+/*.carousel-caption{
+	text-align: center;
+	font-size: 20px;
+}*/
+
+.carousel-caption p{
+	text-align: center;
+	font-size: 15px;
+	color: white;
+}
+
+.display-3, p{
+	font-size: 30px;
+	padding-top: 10px;
+	color: black;
+}
+
+#nadia{
+	border-radius: 180px;
+	width: 300px;
+	height: 300px;
+	box-shadow: 10px 5px solid grey;
+}
+
+.lead{
+	color: grey;
+}
+p{
+	font-size: 14px;
+}
+
+
+.thumbnail h3{
+    font-size: 15px;
+}
+
+.col-sm-4 p{
+    color: white;
+}
+
+#Contact{
+    background-color: #ffd9cc;
+}
+
+#Contact p{
+    font-weight: 15px;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 10px 10px 10px;
